@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/image-1.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    min-height: 5vh;
+    color: white;
+    padding: 10px;
+}
+
+.son {
+    text-decoration: none;
+    color: white;
+    border: red;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: red;
+}
+
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.banner{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.titles{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+.shadow {
+    width: 100%;
+    background: lightgray;
+}
+
+.imgtravel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+h3{
+    background-color: black;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.kyoto, .osaka, .tokyo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.travel {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ListTable {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: gray; */
+}
+
+.list {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: gray;
+    border: solid rgb(66, 66, 66);
+    width: 35%;
+    height: 150px;
+    padding: 50PX ;   
+}
+
+.table {
+        align-items: center;
+        justify-content: center;
+        border: solid black;
+        color: white;
+        background-color: gray;
+        width: 35%;
+        height: 150px;
+        border-collapse: collapse;
+    }
+
+caption {
+    background-color: black;
+}
+
+thead, th, td {
+    border: solid black;
+    border: colapse;
+    padding: 10px;
+}
+    
+span{
+    color: red;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    min-height: 5vh;
+    color: white;
+    padding: 10px;
+}

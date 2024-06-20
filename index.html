@@ -12,21 +12,23 @@
 <body>
     <div class="layout">
         <header class="header">
-            <p><span class="FontRed">JP</span>Travelers</p>
+            <p class="headtitle"><span class="FontRed">JP</span>Travelers</p>
             <nav class="navbar">
-                <a class="navbarA" href="#">Home</a>
-                <a class="navbarA" href="#">Travels</a>
-                <a class="navbarA" href="#">Buy Packs</a>
+                <a class="son" href="#">Home</a>
+                <a class="son" href="#">Travels</a>
+                <a class="son" href="#">Buy Packs</a>
             </nav>
-            <img class="banner" src="./assets/images/image-2.jpg" alt="banner">
         </header>
+        <img class="banner" src="./assets/images/image-2.jpg" alt="banner">
 
         <body>
             <main class="main">
-                <h1 class="title">
+                <div class="shadow">
+                    <h1 class="titles">
                     Choose your <span class="FontRed">best travel</span> option!
                 </h1>
-                <h2 class="title">
+                </div>
+                <h2 class="titles">
                     More information about your options:
                 </h2>
                 <div class="imgtravel">
@@ -46,17 +48,20 @@
                     </div>
                 </div>
 
-                <h2>We leave you more information about what the packages include.</h2>
+                <h2 class="titles">We leave you more information about what the packages include.</h2>
 
                 <div class="ListTable">
                     
-                    <ul class="list">
-                        <li>Advice on hotels and how to include them in the pack</li>
-                        <li>Driect contact throughout the trip with our staff</li>
-                        <li>We include a discount for the next package you compress</li>
-                    </ul>
+                    <div class="list">
 
-                    <table>
+                        <ul>
+                            <li>Advice on hotels and how to include them in the pack</li>
+                            <li>Driect contact throughout the trip with our staff</li>
+                            <li>We include a discount for the next package you compress</li>
+                    </ul>
+                    </div>
+                    
+                    <table class="table">
                         <caption>
                             Price depending on the city
                         </caption>
@@ -84,7 +89,29 @@
                 </div>
              </main>
         </body>
-        <footer></footer>
+        <footer class="footer">
+            <p>MindHub <span class="FontRed">Cohort N</span></p>
+
+            <form action="./show_data.html">
+                <fieldset>
+                    <legend>Have you already traveled with us?</legend>
+                    <label>Yes
+                        <input type="radio" name="choice">
+                    </label>
+                    <label>No
+                        <input type="radio" name="choice">
+                    </label>
+                    <label>Subscribe:
+                        <input type="email" name="email">
+                    </label>
+                    <button>Send</button>
+                </fieldset>
+            </form>
+
+            <p>jptravels@gmail.com</p>
+
+
+        </footer>
     </div>
 </body>
 
